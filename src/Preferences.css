@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.preferences--parent--div{
+    padding-top: 1rem;
+    width: 100%;
+    height: auto;
+}
+.preferences--title--div{
+    width: 100%;
+}
+.preferences--title{
+    color: #D4D4D4;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: Karla,sans-serif;
+}
+.change--currency--div{
+    width: 100%;
+    color: white;
+    margin-top: 1rem;
+}
+.MuiAutocomplete-root {
+    width: 100%; /* Set width to 100% */
+  }
+  
+.MuiAutocomplete-inputRoot {
+    border: 1px solid grey; /* Grey border */
+}
+
+.MuiAutocomplete-input {
+    color: white; /* White font color */
+    background-color: black;
+}
+
+.MuiAutocomplete-options {
+    background-color: rgb(156, 156, 156); /* Black background for options dropdown */
+    color: white; /* White font color for options */
+}
+
+.MuiAutocomplete-option {
+    color: whitesmoke; /* White font color for options */
+    /* background-color: #000000; */
+}
+
+.MuiAutocomplete-option:hover {
+    background-color: #292929 !important;
+}
+.MuiIconButton-root{
+    color: grey;
+    fill: grey;
+}
+.MuiAutocomplete-endAdornment{
+    fill: white!important;
+}
+.currency--change--title{
+    color: #D4D4D4;
+    padding-bottom: 0.5rem;
+}
+.MuiAutocomplete-popupIndicator {
+    color: white !important; /* Set color of the down arrow icon to white */
+}
+.MuiAutocomplete-listbox{
+    background-color: #131313;
+}
+.delete--wallet--div{
+    width: 100%;
+}
+.delete--wallet{
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-family: Karla,sans-serif;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #770000;
+    color: whitesmoke;
+    cursor: pointer;
+    user-select: none;
+}
+.delete--wallet:focus{
+    outline: none;
+}
+.delete--wallet:hover{
+    background-color: #650606;
+    transition: 0.1s ease-in-out;
+}
+.delete--wallet:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}
+.lang--title{
+    color: #D4D4D4;
+}
+.catgories--chosen{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 2% 5%;
+    border-radius: 8px;
+    background-color: #171717;
+    margin-top: 1rem;
+}
+
+.default--info--icon--div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.default--categories--info--cross--div{
+    position: absolute;
+    z-index: 10000;
+    right: 0;
+    padding: 10px 10px;
+    background-color: #252525;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    width: 20%;
+}
+.default--categories--info{
+    color: rgb(228, 228, 228);
+    font-family: Karla,sans-serif;
+}
+.cross--font--div{
+    display: flex;
+    width: 100%;
+}
+#cross--font{
+    margin-left: auto;
+    color: rgb(204, 204, 204);
+    font-size: 0.7rem;
+}
+#cross--font:hover{
+    color: white;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.salary--input{
+    color: #8f8f8f;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.salary--input span{
+    color: rgb(131, 28, 28);
+}
+.change--info{
+    padding-top: 1rem;
+    font-family: Karla,sans-serif;
+    color: grey;
+    font-size: 1rem;
+}
+.currency--color{
+    color: #8f8f8f;
+}
+.input--amounnt{
+    font-family: Inter,san-serif;
+}
+.save--basic--info--button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Karla,sans-serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.save--basic--info--button:focus{
+    outline: none;
+}
+.save--basic--info--button:hover{
+    background-color: rgb(211, 211, 211);
+    transition: 0.1s ease-in-out;
+}
+.save--basic--info--button:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}

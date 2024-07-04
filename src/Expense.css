@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.amount--description--div{
+    width: inherit;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #A8A89C;
+}
+.amount--div{
+    width: 50%;
+}
+.descrip--div{
+    width: 50%;
+}
+.amt--input{
+    margin-top: 0.5rem;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid grey;
+    color:whitesmoke;
+    font-size: 1rem;
+    font-family: Karla,sans-serif;
+    background-color: transparent;
+    width: 95%;
+    padding: 15px 10px;
+}
+.amt--input--number{
+    margin-top: 0.5rem;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid grey;
+    color:whitesmoke;
+    background-color: transparent;
+    width: 95%;
+    padding: 15px 10px;
+    font-size: 1rem;
+    padding-right: 20%;
+    font-family: Karla,sans-serif;
+}
+.amt--input--currency--type{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: Karla,sans-serif;
+}
+.title--amount span{
+    color: rgb(131, 28, 28);
+}
+.title--description span{
+    color: rgb(131, 28, 28);
+}
+.typeOfCurrency{
+    font-weight: 500;
+    top: 50%;
+    transform:translateY(-50%) ;
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+}
+.addCategory--link{
+    padding-top: 5px;
+    color: grey;
+}
+
+.addCategory--link>span{
+    user-select: none;
+}
+
+.addCategory--link>span:hover{
+    color: rgb(222, 222, 222);
+    cursor:default;
+}
+
+.date--picker--div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.date--picker{
+    border: 1px solid rgb(112, 112, 112) !important;
+    border-radius: 10px;
+}
+.date--picker:hover{
+    outline: none !important;
+}
+
+/* Complete--date--div--opened */
+.css-1rtg91x-MuiDateCalendar-root{
+    background-color: rgba(14, 14, 14, 0.921);
+    color: white !important;
+}
+
+/* year--arrow--down */
+.css-1tkx1wf-MuiSvgIcon-root-MuiPickersCalendarHeader-switchViewIcon{
+    fill: whitesmoke!important;
+}
+
+/* month--arrow--left--right */
+.css-1vooibu-MuiSvgIcon-root{
+    fill: whitesmoke !important;
+}
+
+.css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel{
+    color: whitesmoke !important;
+    font-size: 0.9rem !important;
+}
+
+/* days--number--class */
+.css-23p0if-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected){
+    border: none !important;
+    /* remove the border for the selected day */
+}
+
+.MuiPickersDay-day {
+    color: white !important;
+}
+    
+.Mui-selected {
+    background-color: white;
+    color: white !important
+}
+    
+.css-12p2adl-MuiDayCalendar-monthContainer{
+    color: white !important;
+}
+.css-23p0if-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
+    color: white !important;
+}
+
+.css-23p0if-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+    color: white !important;
+}
+.css-1wy8uaa-MuiButtonBase-root-MuiPickersDay-root{
+    color: whitesmoke !important;
+}
+.save{
+    width: 45%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: Karla,sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.save:focus{
+    outline: none;
+}
+.save:hover{
+    background-color: rgb(211, 211, 211);
+    transition: 0.1s ease-in-out;
+}
+.save:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}
+.event--date{
+    color: #808080;
+    font-size: 1rem;
+    font-family: Karla,sans-serif;
+    padding-bottom: 5px;
+    margin-top: 1rem;
+}
+.event--date span{
+    color:rgb(131, 28, 28) ;
+}
+.categ--title{
+    color: #BFBFBF;
+}
+.warnings{
+    display: flex;
+    width: 100%;
+}
+.warning--divs{
+    width: 50%;
+    padding-left: 10px;
+}

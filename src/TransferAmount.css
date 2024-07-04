@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.amnt--parent--div{
+    margin-top: 1rem;
+    width: 100%;
+    color: #A8A8A8;
+}
+.descrip--parent--div{
+    width: 100%;
+    color: #A8A8A8;
+}
+.amnt--input{
+    width: 100%;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: white;
+    font-family: Karla,sans-serif;
+    font-size: 0.95rem;
+    padding: 15px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.title--descrip{
+    padding-top: 1rem;
+    color: #A8A8A8;
+    padding-bottom:0.5rem ;
+}
+.info--div{
+    width: 100%;
+}
+.amnt--input--number{
+    width:100%;
+}
+.amnt--parent--div{
+    width: 100%;
+}
+.typeOfCurrency--class{
+    font-weight: 500;
+    top: 50%;
+    transform:translateY(-50%) ;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+}
+.title--amnt{
+    color: #A8A8A8;
+    padding-bottom: 0.5rem;
+}
+.title--amnt>span{
+    color: rgb(131, 28, 28);
+}
+.title--descrip>span{
+    color: rgb(131, 28, 28);
+}
+.amnt--input--currency--type{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    font-family: Karla,sans-serif;
+}
+.amnt--input--number{
+    width: 100%;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: white;
+    font-family: Karla,sans-serif;
+    font-size: 0.95rem;
+    padding: 15px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.from--to--transfer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from--to--transfer--para{
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#right{
+    color: rgb(228, 228, 228);
+    font-size: 1.8rem;
+    margin: 0% 2%;
+}
+.everything{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.warn--div{
+    display: flex;
+    width: 100%;
+}
+.warni{
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    padding-left: 0%;
+}
+.warni1{
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    padding-left: 5%;
+}
+.text--input{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+
+.categ--div--title{
+    width: 50%;
+}
+.categ--div--title--to{
+    width: 50%;
+}
+.category--Input{
+    width: 50%;
+    padding: 0 !important;
+}
+.categ--title--to{
+    color: #A8A8A8;
+    /* padding-left: 7%; */
+    font-family: Karla,sans-serif;
+}
+.categ--title--to--para{
+    color: #A8A8A8;
+    padding-left: 10%;
+    font-family: Karla,sans-serif;
+}
+.categ--title--to>span{
+    color: rgb(131, 28, 28);
+}

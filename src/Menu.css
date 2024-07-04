@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu--div{
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.logo--div{
+    width: 100%;
+}
+.links{
+    width: 100%;
+    padding:0% 5% ;
+    height: auto;
+    font-family: Karla,sans-serif;
+}
+.logo{
+    padding: 0% 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-family: Inter,sans-serif;
+    color: #FCFCFC;
+    font-size: 1.5rem;
+}
+.dashboard{
+    color: whitesmoke;
+    font-size: 0.95rem;
+    font-family: Karla,sans-serif;
+}
+#dashboard--icon{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-right: 1rem;
+}
+.link--div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 3%;
+    padding: 5% 5%;
+    border-radius: 6px;
+    user-select: none;
+    cursor: pointer;
+}
+.links>:nth-child(1){
+    margin-top: 5%;
+}
+.link--div:hover{
+    background-color: #171717;
+}
+.bottom--links{
+    width: 100%;
+    padding:0% 5%;
+    margin-bottom: 10%;
+    height: auto;
+    font-family: Karla,sans-serif;
+    margin-top: auto;
+}
+.log--out--div{
+    width: 100%;
+    padding: 0% 0%;
+    /* background-color: blue; */
+}
+.log--out{
+    width: 100%;
+    padding: 5% 5%;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Karla,sans-serif;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.log--out:focus{
+    outline: none;
+}
+.log--out:hover{
+    background-color: rgb(211, 211, 211);
+    transition: 0.1s ease-in-out;
+}
+.log--out:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}
+#dwn{
+    font-size: 1rem;
+    margin-left: auto;
+    color: whitesmoke;
+}
+.allWallets {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 5%;
+    flex-direction: column;
+    color: rgb(213, 213, 213);
+    gap: 0.4rem;
+    max-height: 35vh;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    user-select: none;
+}
+
+.allWallets::-webkit-scrollbar {
+    display: none; /* WebKit browsers */
+}
+
+.wallet {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 100%;
+    text-overflow: clip;
+    white-space: nowrap;
+    text-wrap: nowrap;
+    border-radius: 4px;
+}
+
+.wallet > p {
+    cursor: pointer;
+    width: 90%;
+    text-indent: 5px;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+.wallet > p:hover {
+    background-color: rgba(52, 52, 52, 0.4);
+}
+
+#down-right {
+    font-size: 1.3rem;
+}
+.link--drop{
+    width: 100%;
+    color: rgb(213, 213, 213);
+    text-decoration: none;
+}

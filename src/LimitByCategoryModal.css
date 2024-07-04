@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limit--by--category--parent--div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(44, 45, 47, 0.721);
+    display: flex;
+    padding-top: 2%;
+    align-items: start;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.limit--by--category--child--div {
+    position: relative;
+    width: 35%;
+    height: auto;
+    background-color: rgb(2, 2, 2);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.limit--by--category--title--cross{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0px;
+}
+
+.underlined{
+    margin-top: 0.5rem;
+}
+
+.category--textFieldInput--div{
+    margin-top: 1rem;
+}
+
+#cross1{
+    color: rgb(184, 184, 184);
+    font-size: 1.3rem;
+}
+
+#cross1:hover{
+    color: whitesmoke;
+}
+
+.textField--category--icon--container{
+    outline: none !important;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.underlined{
+    width: 100%;
+    height: 0.5px;
+    margin-top: 1rem;
+    background-color: rgba(128, 128, 128, 0.615);
+    border-radius: 3px;
+}
+
+.categ--title--limits{
+    color: rgb(168, 168, 168);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-family: Karla,sans-serif;
+}
+
+.categ--title--limits span{
+    color: rgb(131, 28, 28);
+}
+
+.limit--by--category--title{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: Karla,sans-serif;
+    font-weight: 500;
+}
+.textField:focus{
+    outline: none !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    background-color: rgba(10, 9, 9, 0.955);
+    color: whitesmoke;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list>li{
+    font-family: Karla,sans-serif;
+}
+
+.textField>li{
+    font-size: 0.5rem !important;
+    font-family: Karla,sans-serif;
+}
+
+#vertical--expand{
+    color: whitesmoke;
+}
+
+li{
+    font-size: 0.85rem !important;
+    font-family: "Roboto",sans-serif !important;
+    font-weight: 300 !important;
+    font-style: normal;
+    text-indent: 5px;
+    border-radius: 5px !important;
+}
+.amount--input--div{
+    width: 100%;
+    margin-top: 1rem;
+}
+.amount--title{
+    color: rgb(168, 168, 168);
+    font-size: 0.9rem;
+    font-family: Karla,sans-serif;
+}
+
+.amount--title span{
+    color: rgb(131, 28, 28);
+}
+
+.amount--input{
+    margin-top: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    width: 100%;
+    color: rgb(234, 234, 234);
+    padding: 15px;
+    padding-right: 15%;
+    text-indent: 5px;
+    outline: none;
+    background-color: transparent;
+    font-family: Inter,sans-serif;
+}
+
+.currency--change--title span{
+    color: rgb(131, 28, 28);
+}
+
+.currency--type{
+    color: rgb(196, 196, 196);
+}
+
+.amount--input--currency--type{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.currency--type{
+    font-weight: 500;
+    top: 50%;
+    transform:translateY(-50%) ;
+    position: absolute;
+    right: 0;
+    margin-right: 3%;
+}
+.save--button{
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 16px;
+    background-color: whitesmoke;
+    color: balck;
+    margin-top: 3%;
+    font-size: 1rem;
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.save--button:focus{
+    outline: none;
+}
+.save--button:hover{
+    background-color: rgb(211, 211, 211);
+    transition: 0.1s ease-in-out;
+}
+.save--button:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}

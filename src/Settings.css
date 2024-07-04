@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.settings--div {
+    width: 85%;
+    height: 100vh;
+    gap: 2rem;
+    padding-top: 2%;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    overflow: hidden;
+}
+
+.settings--title {
+    font-size: 1.5rem;
+    font-family: Karla, sans-serif;
+    font-weight: 600;
+    padding: 2% 0%;
+    color: whitesmoke;
+}
+
+.salary--div--title {
+    color: rgb(213, 213, 213);
+    font-weight: 500;
+    font-family: Karla, sans-serif;
+    font-size: 1.2rem;
+}
+
+.settings--div--left {
+    padding: 0% 5%;
+    width: 60%;
+    height: 90vh; /* Ensure the div takes the full height of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
+    position: relative; /* Ensure other elements remain fixed */
+}
+
+/* Hide the scrollbar for WebKit browsers */
+.settings--div--left::-webkit-scrollbar {
+    width: 0px; /* Hide the scrollbar */
+}
+
+/* Customize scrollbar for Firefox */
+.settings--div--left {
+    scrollbar-width: none; /* Hide the scrollbar for Firefox */
+}
+
+.salary--description {
+    color: grey;
+    padding: 1% 0%;
+    padding-bottom: 2%;
+    font-size: 1rem;
+    font-family: Karla, sans-serif;
+}
+
+/* Hiding the arrow in the input field */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.input--days--container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Adjust width as needed */
+}
+
+.input--days {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    width: 100%; /* Adjust width to account for arrow width */
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(140, 140, 140);
+    padding: 15px 40px 15px 20px; /* Add space on the right for arrows */
+    position: relative; /* Position relative for absolute positioning of arrows */
+}
+
+.arrow--div {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+#up,
+#down {
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#up {
+    margin-bottom: 1px; /* Adjust as needed */
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+#down {
+    margin-top: 1px; /* Adjust as needed */
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+#up:hover,
+#down:hover {
+    background-color: #171717;
+}
+
+.your--wallet {
+    color: whitesmoke;
+    padding: 2% 0%;
+    width: 100%;
+}
+
+.list--your--wallet {
+    color: whitesmoke;
+    border-radius: 10px;
+    background-color: #171717;
+    margin-top: 2%;
+    padding: 2.5% 2%;
+}
+
+.salary--day--div {
+    width: 100%;
+}
+
+.your--wallet > :nth-child(1) {
+    margin-top: 3%;
+}
+
+.your--wallet--title {
+    color: rgb(213, 213, 213);
+    font-weight: 500;
+    font-family: Karla, sans-serif;
+    font-size: 1.2rem;
+}
+
+.your--wallet--description {
+    color: grey;
+    font-family: Karla, sans-serif;
+    padding-top: 5px;
+}
+
+.money {
+    font-size: 1.4rem;
+    font-family: Karla, sans-serif;
+    font-weight: 600;
+}
+
+.wallet--type {
+    color: grey;
+    font-family: Inter, sans-serif;
+    font-size: 0.8rem;
+}
+
+.list--your--wallet {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#gutter {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: grab;
+    color: rgb(158, 158, 158);
+}
+
+.remove--account--div {
+    color: #D5D5D5;
+    width: 100%;
+}
+
+.remove--account--title {
+    color: rgb(213, 213, 213);
+    font-weight: 500;
+    font-family: Karla, sans-serif;
+    font-size: 1.2rem;
+}
+
+.remove--account--description {
+    color: grey;
+    font-family: Karla, sans-serif;
+    padding-top: 5px;
+}
+
+.remove-account-button {
+    width: 100%;
+    padding: 10px 10px;
+    color: whitesmoke;
+    background-color: #770000;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: Karla, sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.remove-account-button:focus {
+    outline: none;
+}
+
+.remove-account-button:hover {
+    background-color: #560505;
+    transition: 0.1s ease-in-out;
+}
+
+.remove-account-button:active {
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.profile {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20%;
+}
+
+.settings--div--right {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 25%;
+    padding-top: 5%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.profile--pic--name {
+    display: flex;
+    color: whitesmoke;
+    justify-content: start;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-family: Karla, sans-serif;
+    text-indent: 20px;
+}
+
+.sign--out {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-family: Karla, sans-serif;
+    background-color: #ffffff;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.sign--out:focus {
+    outline: none;
+}
+
+.sign--out:hover {
+    background-color: #ececec;
+    transition: 0.1s ease-in-out;
+}
+
+.sign--out:active {
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.salary{
+    color: #D5D5D5;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.update{
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    font-family: Karla,sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.update--settings{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.btn--update--cancel{
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}
+.cancel{
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    font-family: Karla,sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: rgba(195, 195, 195, 0.956);
+}
+#combo-box-demo:disabled{
+    color:grey !important
+}
+#cancel{
+    cursor: pointer;
+}
+.warn{
+    color: rgb(188, 17, 17);
+    font-size: 0.7rem;
+    font-family: Karla,sans-serif;
+    padding-top: 0.5rem;
+}
+.loader--div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.add--btn--default--div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 2%;
+}
+.add--button--default{
+    margin-left: auto;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: Karla,sans-serif;
+    font-weight: 500;
+}
+.add--button--default:focus,.update:focus,.cancel:focus{
+    outline: none;
+}
+.add--button--default:hover,.update:hover{
+    background-color: rgb(211, 211, 211);
+    transition: 0.1s ease-in-out;
+}
+.add--button--default:active,.update:active,.cancel:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}
+.default--loader{
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.default--category--autocomplete--div{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.defaultCategoryName{
+    display: flex;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    font-family: Karla,sans-serif;
+}
+.defaultCategoryName--div{
+    width: auto;
+    display: flex;
+    justify-content: start;
+}
+.category--cross{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: rgba(48, 48, 48, 0.66);
+    border-radius: 30px;
+    color: black;
+}
+#cancel{
+    margin-left: 5%;
+    color: whitesmoke;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.circular--loader--cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.default--message{
+    color: rgb(218, 218, 218);
+    font-family: Karla,sans-serif;
+    font-size: 0.9rem;
+}
+.default-message--div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.no--wallets--div--settings{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.no--wallets--settings{
+    color: rgb(176, 182, 202);
+    font-family: Karla,sans-serif;
+    font-size: 0.9rem;
+}

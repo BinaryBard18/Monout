@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.categories--parent--div {
+    width: 85%;
+    height: 100vh;
+    padding: 0 3%;
+    padding-top: 2%;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: white;
+    overflow: hidden;
+    padding-left: 10%;
+}
+
+.category--title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #F5F5F5;
+    font-family: Karla, sans-serif;
+}
+
+.category--title--div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category--left--section {
+    width: 100%;
+    height: 100%; /* Ensures it takes up full height */
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.add--categories--btn {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: Karla, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+}
+
+.add--categories--btn:focus {
+    outline: none;
+}
+
+.add--categories--btn:hover {
+    background-color: rgb(211, 211, 211);
+    transition: 0.1s ease-in-out;
+}
+
+.add--categories--btn:active {
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.search--input {
+    text-indent: 10px;
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: Karla, sans-serif;
+}
+
+.search--input::placeholder {
+    user-select: none;
+}
+
+.search----input--button {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    position: absolute;
+    right: 0;
+    background-color: #171717;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin-right: 1%;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.search--button:hover {
+    background-color: #323232df;
+}
+
+.search--button:focus {
+    outline: none;
+}
+
+.search--button:active {
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+#search--icon {
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+.category--item--div {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #171717;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.name--category {
+    text-indent: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.show--all--categories {
+    width: 100%; 
+    height: calc(100vh - 150px); 
+    gap: 0.7rem;
+    padding-bottom : 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.show--all--categories::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.category--right--section{
+    /* width: 50%; */
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+    padding-bottom: 2rem;
+    height: calc(100vh - 10px); /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: auto; /* Enables vertical scrolling */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.category--right--section::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.category--child--div{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.MuiChartsAxis-line {
+    stroke: white !important;
+}
+
+.bar--chart--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 2% 2%;
+    /* margin-top: 2rem; */
+    border-radius: 10px;
+    background-color: #171717be;
+}
+
+.MuiChartsAxis-tickLabel {
+    fill: whitesmoke !important;
+    font-size: 0.8rem !important;
+    font-family: Karla, sans-serif !important;
+}
+
+.MuiChartsAxis-tick {
+    stroke: white !important;
+}
+
+.income--spend--chart {
+    display: flex;
+    width: 100%;
+    font-family: Karla, sans-serif;
+    padding: 2% 5%;
+    font-size: 1.2rem;
+    color: rgb(228, 228, 228);
+    justify-content: start;
+}
+
+.css-10vg0a6-MuiResponsiveChart-container>svg {
+    width: 90% !important;
+    height: 90% !important;
+}
+
+.income--spend--title span {
+    color: rgb(194, 194, 194);
+    font-size: 1rem;
+}
+
+.delete--edit-icon {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#trash {
+    font-size: 1.3rem;
+    color: rgb(182, 182, 182);
+}
+
+#edit {
+    font-size: 1.3rem;
+    color: rgb(182, 182, 182);
+}
+
+#edit:hover, #trash:hover {
+    color: whitesmoke;
+}
+/* .pie--div{
+    width: 60%;
+    background-color: #171717be;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding: 0% 2%;
+    padding-right: 10%;
+    padding-bottom: 2rem;
+    height: 45%;
+} */
+/* .pie--chart{
+    width: 100%;
+    height: 100%;
+} */
+.MuiPieArc-root{
+    stroke-width: 0 !important;
+    stroke: none !important;
+    color: whitesmoke !important;
+}
+.pie--div text {
+    /* display: none !important; */
+    fill: white !important; 
+    font-size: 0.9rem !important; 
+    font-family: Karla,sans-serif !important;
+}
+.MuiChartsLegend-row text{
+    fill: white !important;
+    font-family: Karla,sans-serif !important;
+    font-size: 0.85rem !important;
+}
+.MuiChartsLegend-mark{
+    width: 20px !important;
+    height: 20px !important;
+}
+.pie--title{
+    font-size: 1.2rem;
+}
+.pie--title--div{
+    width: 100%;
+    padding: 2% 5%;
+    font-family: Karla,sans-serif;
+    color: rgb(228, 228, 228);
+}
+.pizza10{
+    font-size: 1rem;
+    padding: 5px 5px;
+    background-color: #545454;
+    border-radius: 50%;
+    user-select: none;
+}
+.no--categories{
+    color: rgb(220, 220, 220);
+    font-size: 1.1rem;
+    font-family: Karla,sans-serif;
+}
+.change--name--input{
+    width: 95%;
+    padding: 8px 8px;
+    margin-left: 2%;
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(221, 221, 221);
+    font-family: Karla,sans-serif;
+    font-size: 1rem;
+    position: relative;
+}
+.change--name--tick--icon--div{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#check{
+    font-size: 1.3rem;
+    color: rgb(182, 182, 182);
+    padding: 5px 5px;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.tick--cross{
+    margin-right: 2%;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+#dont--update{
+    font-size: 1.3rem;
+    color: rgb(182, 182, 182);
+    padding: 5px 5px;
+    background-color: rgb(135, 17, 17);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pie--title>span{
+    color: grey;
+    font-size: 1rem;
+    font-family: Karla,sans-serif;
+}

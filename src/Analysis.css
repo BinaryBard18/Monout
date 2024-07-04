@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.analysis--parent--div {
+  background-color: #171717;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  padding: 3% 5%;
+}
+.from--to {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: Karla, sans-serif;
+  color: rgb(176, 176, 176);
+}
+.total--earnings {
+  font-size: 1rem;
+  font-family: Karla, sans-serif;
+  color: rgb(176, 176, 176);
+}
+.price {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-top: 5px;
+  font-family: Karla, sans-serif;
+}
+.earnings--expense {
+  width: 60%;
+  gap: 25%;
+  display: flex;
+  padding-right: 5%;
+  justify-content: end;
+  align-items: center;
+  margin-left: auto;
+}
+.from--to--earnings--expense {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.horizontal--rule {
+  width: 100%;
+  margin-top: 1rem;
+  height: 2px;
+  border-radius: 3px;
+  background-color: rgba(61, 61, 61, 0.525);
+}
+.category--title {
+  color: grey;
+}
+.percentage--title {
+  color: grey;
+}
+.spent--title {
+  color: grey;
+}
+.category--percentage--spent {
+  padding: 2% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.percentage--spent {
+  width: 60%;
+  gap: 35%;
+  display: flex;
+  padding-right: 10%;
+  justify-content: end;
+  align-items: center;
+  margin-left: auto;
+}
+.category--items {
+  padding-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.percentage--items {
+  padding-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(210, 210, 210);
+}
+.spent--items {
+  padding-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(210, 210, 210);
+}
+.pizza2 {
+  width: 1.2rem;
+  margin-right: 1rem;
+}
+.category--name {
+  color: whitesmoke;
+}
+.category--item--element {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.transfers--received--sent {
+  margin-top: 3%;
+  padding: 2% 0%;
+  display: flex;
+  justify-content: start;
+  gap: 40%;
+  align-items: center;
+  width: 80%;
+}
+.transfer--received--title {
+  color: rgb(172, 172, 172);
+  font-family: Karla, sans-serif;
+}
+.transfer--received--amt {
+  font-weight: 500;
+  font-family: Karla, sans-serif;
+  font-size: 1.3rem;
+}
+.less--details {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.604);
+  border: none;
+  outline: none;
+  font-family: Karla, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  color: whitesmoke;
+}
+.less--details:focus {
+  outline: none;
+}
+.less--details:hover {
+  background-color: rgba(89, 89, 89, 0.308);
+  transition: 0.1s ease-in-out;
+}
+.less--details:active {
+  transform: scale(0.97);
+  transition: 0.1s ease-out;
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+#up--icon {
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+}
+.bar--chart--title {
+  font-size: 1.1rem;
+  font-family: Karla, sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgb(160, 160, 160);
+}
+.bar--chart--analysis--div {
+  width: 100%;
+}
+.category--name--div{
+  width: 55%;
+}
+.headers{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.row--div{
+  width: 100%;
+  padding-top: 0.5rem;
+  max-height: 10vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.percentage--spent--div{
+  width: 45%;
+  /* padding: 0% 10%; */
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 40%; */
+}
+.category--div{
+  display: flex;
+  gap: 0.5rem;
+  width: 55%;
+  justify-content: start;
+  align-items: center;
+}
+.icon--pizza{
+  font-size: 1rem;
+}
+.percentage--spent--data{
+  display: flex;
+  width: 45%;
+  padding-right: 8%;
+  padding-left: 2%;
+  justify-content: space-between;
+  align-items: center;
+}

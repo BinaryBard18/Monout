@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wallet--name--input--div{
+    width: 100%;
+    padding-top: 1rem;
+}
+.name--input--wallet{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid grey;
+    padding: 15px 20px;
+    color: whitesmoke;
+    font-family: Karla,san-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.wallet--name{
+    color: #A8A8A8;
+    font-family: Karla,san-serif;
+}
+.wallet--name>span{
+    color: rgb(131, 28, 28);
+}
+.textField:disabled{
+    color: grey;
+}
+.currency--title{
+    color: #A8A8A8;
+    font-family: Karla,san-serif;
+}
+.currency--info--icon--div{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+.currency--input{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding:15px 20px;
+    background-color: rgba(30, 30, 30, 0.738);
+    color: rgb(175, 175, 175);
+    font-family: Karla,sans-serif;
+    outline: none;
+    font-size: 1.1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.currency--title--input--div{
+    width: 100%;
+    padding-top: 1rem;
+    position: relative;
+}
+.simplicity--info{
+    color: rgb(202, 202, 202);
+}
+.simplicity--info--div{
+    font-family: Inter,san-serif;
+    width: 30%;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    background-color: #1f1f1f;
+    position: absolute;
+    right: 0;
+}
+.cross--div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

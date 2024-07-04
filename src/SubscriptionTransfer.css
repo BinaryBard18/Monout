@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.confirmation--div{
+    color: #A8A8A8;
+    width: 90%;
+    /* text-align: center; */
+}
+.confirmation--info{
+    margin-top: 1rem;
+    font-family: Karla,san-serif;
+    font-size: 0.9rem;
+}
+.confirmation--info>span{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+.event--date--head{
+    color: #A8A8A8;
+    padding-top: 1rem;
+}
+.event--date--head>span{
+    color: rgb(131, 28, 28);
+}
+.date--picker--div1{
+    display: flex;
+    justify-content: start;
+    margin-top: 0.5rem;
+}
+.image--logo{
+    width: 10%;
+    height: 10%;
+    border-radius: 10%;
+}
+.brand--name--logo--div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.description--subs{
+    font-size: 1.4rem;
+    text-indent: 1rem;
+    color: rgb(207, 207, 207);
+}

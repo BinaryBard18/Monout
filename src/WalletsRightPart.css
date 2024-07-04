@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.info--pop--up--div {
+    position: absolute;
+    top: calc(100% - 20px); 
+    right: 0;
+    transform: translateX(0%);
+    background-color: #2d2d2de5;
+    border-radius: 5px;
+    padding: 6px 6px;
+    padding-right: 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.766);
+    z-index: 999; 
+    display: none;
+    width: 35%;
+}
+  
+.info--pop--up--div p {
+    margin: 0;
+}
+
+.info--pop--up--div.active {
+    display: block;
+}
+
+.days--before--salary--parent--div{
+    width: 50%;
+    
+}
+
+.info--pop--up--content{
+    text-align: justify;
+    width: 95%;
+    font-size: 0.8rem;
+    color: rgba(228, 228, 228, 0.827);
+    font-family: Karla,sans-serif;
+}
+
+.cross-icon{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+    
+#cross{
+    padding: 0px 5px;
+    margin-left: auto;
+    font-size: 1rem;
+    color: rgba(228, 228, 228, 0.827);
+}
+
+#cross:hover{
+    color: white;
+}
+
+.info--pop--up--content--div{
+    width: 100%;
+}
+.food-dropdown{
+    /* user-select: none; */
+    font-size: 1rem;
+    color: rgb(140, 140, 140);
+    width: 100%;
+    padding: 4% 5%;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    background-color: rgb(13, 13, 13);
+}
+.total--limit--info span{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.spent--amount--info span{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.recommend--spend--info span{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.edit--remove--button{
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    justify-content:start;
+    align-items: center;
+}
+.edit--button{
+    user-select: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: 0.9rem;
+    font-family: Karla,sans-serif;
+    padding: 7px 16px;
+    outline: none;
+    border: none;
+    background-color: rgba(96, 96, 96, 0.721);
+    color: white;
+    border-radius: 8px;
+}
+.edit--button:focus{
+    outline: none;
+}
+.edit--button:hover{
+    background-color: rgba(78, 78, 78, 0.721);
+    transition: 0.1s ease-in-out;
+}
+.edit--button:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}
+.remove--button{
+    user-select: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: 0.9rem;
+    font-family: Karla,sans-serif;
+    padding: 7px 16px;
+    outline: none;
+    border: none;
+    background-color: rgba(141, 23, 23, 0.874);
+    color: white;
+    border-radius: 8px;
+}
+.remove--button:focus{
+    outline: none;
+}
+.remove--button:hover{
+    background-color: rgba(111, 21, 21, 0.94);
+    transition: 0.1s ease-in-out;
+}
+.remove--button:active{
+    transform: scale(0.97);
+    transition: 0.1s ease-out;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7); 
+}
+.emoji--name--spent--bar--div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* margin-bottom: 1rem; */
+}
+.others--div{
+    width: 100%;
+}
+.progressor{
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.loader--limit--div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.loader--limit{
+    margin-left: auto;
+}
+.nothing--found--div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nothing{
+    color: rgb(173, 173, 173);
+    font-size: 0.9rem;
+    font-family: Karla,sans-serif;
+}
+.update--cancel--div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.check-btn{
+    background-color: green;
+}
+.check-btn:hover{
+    background-color:rgb(7, 98, 7) ;
+}
+.x-btn:hover{
+    background-color:#630c0b;
+}
+.x-btn{
+    background-color: #6A1615;
+}
+.input--limit--amount{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20%;
+    color: whitesmoke;
+    font-family: Inter,sans-serif;
+    font-size: 0.9rem;
+    text-indent: 5px;
+    border: 0.5px solid rgb(194, 194, 194);
+    outline: none;
+    background-color: transparent;
+    border-radius: 3px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+.pizza11{
+    font-size: 1.3rem;
+    padding: 5px 5px;
+    background-color: #545454;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+.subscriptions--not--found{
+    font-size: 1rem;
+    font-family: Karla,sans-serif;
+    color: rgba(221, 221, 221, 0.829);
+}
+.subscriptions--not--found--div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#checkIt{
+    color: #008000;
+    padding: 7px 7px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: #1D2C1D;
+}
+.logo--brand{
+    width: 8%;
+    height: 8%;
+    border-radius: 10%;
+    user-select: none;
+}
+.subscription--div{
+    margin-bottom: 2rem;
+}
+.showAll--div--subscriptions{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0% 3%;
+    margin-top: 1rem;
+}
+.showAll--text{
+    color: rgb(213, 213, 213);
+    cursor: pointer;
+    font-size: 0.9rem;
+    user-select: none;
+    font-family: Karla,sans-serif;
+}
+.showAll--text:hover{
+    color: rgb(161, 161, 161);
+    transition: 0.1s ease-in-out;
+}
+.showAll--text:active{
+    transform: scale(0.975);
+}

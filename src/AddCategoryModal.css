@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.plus--type{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plus--icon--add{
+    color: grey;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+#plus--icon--add:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
