@@ -537,6 +537,7 @@ export default function Settings() {
                     RemoveTransaactions(uid,'transactions');
                     RemoveTransaactions(uid,'wallets');
                     RemoveTransaactions(uid,'subscriptions');
+                    RemoveTransaactions(uid,'limitsByCategory');
                     RemoveTransaactions(uid,'categories');
                     RemoveSummaries(uid);
                     setUid('');
