@@ -461,14 +461,14 @@ export default function Settings() {
     function Downclicked() {
         if(isDisabled) return;
         if (object.payDay === 1) return;
-        const updatedDays = object.payDay - 1;
+        const updatedDays = parseFloat(object.payDay) - 1;
         setObject(prev => ({ ...prev, payDay: updatedDays }));
     }
 
     function Upclicked() {
         if(isDisabled) return;
         if (object.payDay === 31) return;
-        const updatedDays = object.payDay + 1;
+        const updatedDays = parseFloat(object.payDay) + 1;
         setObject(prev => ({ ...prev, payDay: updatedDays }));
     }
 
